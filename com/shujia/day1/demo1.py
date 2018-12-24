@@ -65,7 +65,7 @@ print bool("0")
 print bool("assad")
 
 # 类型转换异常
-#print float("asdsad")
+# print float("asdsad")
 
 print isinstance("a", str)
 print isinstance(10, str)
