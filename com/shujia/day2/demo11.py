@@ -85,4 +85,8 @@ r2 = np.random.rand(4, 3)
 print r1
 print r2
 
+
 print np.random.randint(0,10)
+
+print "-"*100
+print a7.dot(a7.reshape(4,3))

@@ -38,13 +38,14 @@ class person():
     # 多外提供编程接口
     def get_name(self):
         return self.__name
+
     def get_age(self):
         return self.__age
 
-
-    #私有方法
+    # 私有方法
     def __fun(self):
         print "私有方法"
+
 
 p = person("张三", 23)
 print p.get_name()
@@ -56,10 +57,9 @@ class student(person):
 
     def get_name(self):
         print "子类方法"
-        print self.__name
+        # 子类不继承父类私有属性和方法
+        # print self.__name
 
 
-student1 = student("王五",22)
+student1 = student("王五", 22)
 print student1.get_name()
-
-
